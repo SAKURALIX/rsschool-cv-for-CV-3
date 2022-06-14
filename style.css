@@ -3,10 +3,6 @@
      src: url("assets/fonts/Joan-Regular.ttf");
    }
 
-   * {
-    box-sizing: border-box;
-    border: 1px solid red
-  }
 
   body {
     min-height: 100vh;
@@ -28,6 +24,7 @@
     display: flex;
     justify-content: flex-end;
     align-items: center;
+    background-color: cornflowerblue;
   }
 
 
@@ -42,16 +39,16 @@
   .nav-link {
     padding: 0 20px;
     line-height: 50px;
-    color: blueviolet;
+    color: white;
   }
 
-  .section-item a {
-    color: #829985;
+  .nav-item a {
+    color: white;
     text-decoration: none;  
     transition: color 0.5s;
   }
-  .section-item a:hover {
-    color: #4d2323;
+  .nav-item a:hover {
+    color: blue;
   }
 
   .main-container {
@@ -111,3 +108,8 @@
     border: 1px solid #829985;
     border-radius: 50%;
   }
+
+  footer {
+    background-color: cornflowerblue;
+  }
+  
