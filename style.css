@@ -110,6 +110,37 @@
   }
 
   footer {
+    padding: 20px;
     background-color: cornflowerblue;
   }
   
+  .footer-content {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .footer-left {
+    display: flex;
+    align-items: center;
+    color: white;
+  }
+  
+  .year {
+    margin: 0;
+    font-family: 'Joan-Regular', sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 1.5;
+  } 
+
+  .github-link {
+    padding: 0 12px;
+    text-decoration: none;
+    color: white;
+  }
+
+  .github-link:hover {
+    color: blue;
+  }
+
+
