@@ -63,13 +63,21 @@
   .grid-container {
     grid-template-columns: 1fr 1fr;
     grid-template-rows: repeat(5 300px);
+    grid-column-gap: 40px;
     display: grid;
   }
 
   .section {
-    /* display: flex; */
+    border-bottom: 1px solid cornflowerblue;
+    padding: 10px;
+    padding-bottom: 35px;
   }
   
+  .last-row {
+    padding: 10px;
+    padding-bottom: 35px;
+  }
+
   .content {
     width: 50%; 
   }
@@ -79,6 +87,7 @@
     flex-direction: column;
     align-items: center;
     justify-content: center;
+    margin-left: -90px;
   }
 
   .center-image {
@@ -88,6 +97,14 @@
     margin: 35px;
   }
 
+  .surname {
+    font-size: 32px;
+    font-weight: 400;
+    text-transform: uppercase;
+    letter-spacing: 5px;
+    color: #245c9f;
+  }
+
   .stick {
     height: 2px;
     width: 140px;
@@ -95,9 +112,20 @@
   }
 
   .big-stick {
-    height: 10px;
-    width: 140px;
+    grid-column-start: 1;
+    grid-column-end: 3;
+    height: 15px;
+    width: 1430px;
+    margin: auto;
+    border-radius: 4px;
+    opacity: 70%;
     background-color: cornflowerblue;
+  }
+  
+  .code {
+    margin: 0;
+    margin-left: -220px;
+    margin-bottom: -10px;
   }
 
 
